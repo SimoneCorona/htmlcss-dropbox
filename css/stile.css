@@ -101,7 +101,7 @@ html{
 }
 .piano{
     /* test */
-    height: 400px;
+    height: 350px;
     /* test */
     padding-top: 8em;
 }
@@ -113,19 +113,31 @@ html{
     margin-left: 1em;
 }
 .col{
+    background-color: white;
+    border: 2px solid grey;
     float: left;
+    width: 30%;
     /* test */
     height: 700px;
-    background-color: yellow;
-    border: 2px solid rgb(255, 0, 0);
-    width: 30%;
-    
     /* test */
     /* width: calc(30%-4px); */
 }
+.mid{
+    margin: 0 5%;
+}
+/* Intestazione colonne */
 .fa-address-book-o{
     font-size: 1em;
 }
+.title-col{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 0.5em 0;
+}
+.content-col{
+    margin: 10% 10% 0;
+}
+
 .contact{
     /* test */
     height: 50px;
