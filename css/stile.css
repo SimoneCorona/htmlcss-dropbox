@@ -20,6 +20,9 @@ html{
     padding: 0.3em 1em;
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 /* HEADER */
 .cont-head{
     width: 100%;
@@ -117,10 +120,11 @@ html{
     border: 2px solid grey;
     float: left;
     width: 30%;
+    line-height: 2.5em;
     /* test */
-    height: 700px;
+    /* height: 700px; */
     /* test */
-    /* width: calc(30%-4px); */
+    
 }
 .mid{
     margin: 0 5%;
