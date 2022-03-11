@@ -9,7 +9,7 @@ html{
     font-family: Open Sans;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -64,6 +64,7 @@ html{
     margin: auto;
     height: 600px;
     padding-top: 100px; 
+    float: left;
 }
 .cont-banner h1{
     font-size: 4.5em;
@@ -83,9 +84,11 @@ html{
 .fa-arrow-down{
     font-size: 2em;
 }
+.logo-jumbo{
+    float: left;
+}
 #jumbo{
     /* test */
-    display: inline-block;
     width: 300px;
     /* !test */
 }
