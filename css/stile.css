@@ -57,14 +57,13 @@ html{
 /* BANNER */
 .banner{
     background-color: #adcde7;
-    height: 800px;
+    height: 700px;
 }
 .cont-banner{
     width: 80%;
     margin: auto;
     height: 600px;
     padding-top: 100px; 
-    float: left;
 }
 .cont-banner h1{
     font-size: 4.5em;
@@ -72,48 +71,60 @@ html{
 }
 .col-banner{
     width: 30%;
-    display: inline-block;
+    float: left;
 }
 .text-banner{
     margin-bottom: 2em;
 }
 .row-banner p{
     margin-top: 1em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 .fa-arrow-down{
     font-size: 2em;
 }
 .logo-jumbo{
+    width: 70%;
     float: left;
 }
 #jumbo{
-    /* test */
-    width: 300px;
-    /* !test */
+    width: 800px;
 }
 /* MAIN */
 .cont-main{
     /* test */
     /* height: 800px; */
-    background-color: crimson;
+    background-color: rgb(252, 23, 69);
     /* test */
     width: 70%;
     margin: auto;
 }
 .piano{
     /* test */
-    height: 500px;
-    background-color: rgb(63, 63, 39);
-    border: 2px solid rgb(17, 18, 75);
+    height: 400px;
     /* test */
+    padding-top: 8em;
+}
+.piano h1{
+    font-size: 1.8em;
+    margin: 2em 0;
+}
+.piano input:last-child{
+    margin-left: 1em;
 }
 .col{
+    float: left;
     /* test */
-    height: 200px;
+    height: 700px;
     background-color: yellow;
     border: 2px solid rgb(255, 0, 0);
+    width: 30%;
+    
     /* test */
+    /* width: calc(30%-4px); */
+}
+.fa-address-book-o{
+    font-size: 1em;
 }
 .contact{
     /* test */
