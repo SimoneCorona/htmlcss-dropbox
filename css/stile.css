@@ -23,6 +23,9 @@ html{
 li{
     list-style: none;
 }
+.mg-bt{
+    margin-bottom: 1em;
+}
 /* HEADER */
 .cont-head{
     width: 100%;
@@ -120,11 +123,8 @@ li{
     border: 2px solid grey;
     float: left;
     width: 30%;
-    line-height: 2.5em;
-    /* test */
-    /* height: 700px; */
-    /* test */
-    
+    padding-bottom: 6em;
+    margin-bottom: 4em; 
 }
 .mid{
     margin: 0 5%;
@@ -141,12 +141,36 @@ li{
 .content-col{
     margin: 10% 10% 0;
 }
-
+p a{
+    color: #0061ff;
+}
+li span{
+    color: #0061ff;
+}
+.content-col h2{
+    font-size: 1em;
+}
+.content-col>h3{
+    font-size: 0.8em;
+    color: grey;
+    margin-bottom: 2em;
+}
+.content-col>.btn-blue{
+    margin: 8em 0;
+}
+.divider{
+    width: 30%;
+    border-top: 2px solid lightgrey;
+}
 .contact{
-    /* test */
-    height: 50px;
-    background-color: blueviolet;
-    /* test */
+    border: 2px solid grey;
+}
+.cont-contact{
+    margin: 2em 2em;
+}
+.row-contact h1{
+    display: inline-block;
+    width: 70%;
 }
 .partner{
     /* test */
