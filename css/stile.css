@@ -211,9 +211,18 @@ li span{
 .cell img{
     width: 100%;
 }
+/* FOOTER DEL MAIN */
+.foot-main{
+    width: 50%;
+}
+.foot-main h1{
+    font-size: 2em;
+}
+.foot-main span a{
+    color:#0061ff;
+}
 
-
-
+/* DESIGNIT */
 .designit-cont{
     /* test */
     height: 300px;
