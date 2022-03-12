@@ -266,22 +266,51 @@ li span{
 .yellow-bg{
     background-color: yellow;
 }
+/* PROVA GRATUITA */
 .prova{
-     /* test */
-     background-color: rgb(28, 128, 243);
-     height: 200px;
-     /* test */
+     background-color: #adcde7;
 }
-
+.content-prova{
+    padding: 10% 15%;
+    position: relative;
+}
+.content-prova h1{
+    display: inline-block;
+    font-size: 2em;
+    width: 50%;
+    color: darkred; 
+    font-weight: bolder;  
+}
+.content-prova span a{
+    background-color: white;
+    padding: 0.5em 2em;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    text-decoration: none;
+}
 /* FOOTER */
 .row-white{
-    /* test */
-    height: 200px;
-    /* test */
+
+}
+.cont-top-foot{
+    width: 70%;
+    margin: 5em auto;
+}
+.cont-top-foot h1{
+    margin-bottom: 1em;
+}
+.cont-top-foot li{
+    border-bottom: 1px solid lightgrey;
+    padding: 1em 0;
+}
+.cont-top-foot li:first-child{
+    border-top: 1px solid lightgrey;
 }
 .row-black{
     /* test */
     background-color: rgb(0, 0, 0);
+    color: white;
     height: 200px;
     /* test */
 }
