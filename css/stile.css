@@ -8,7 +8,6 @@
 html{
     font-family: Open Sans;
 }
-
 .clearfix::after{
     content: "";
     display: table;
@@ -46,7 +45,7 @@ a{
     position: fixed;
 }
 .col-head-left{
-    width: 65%;
+    width: 72%;
     display: inline-block;
     line-height: 85px;
 }
@@ -63,8 +62,10 @@ a{
     margin-bottom: 1em;
 }
 .menù, .menù>li{
-    position: relative;
     display: inline-block;
+}
+.menù{
+    position: relative;
 }
 .cont-head a{
     color: black;
@@ -83,13 +84,17 @@ a{
 .cont-head a:hover .sub-menù{
     display: block;
 }
-.sub-menù{
-    background-color: white;
-    display: none;
-    line-height: 1em;
+.menù a:hover + ul{
+    display: block;
     position: absolute;
     top: 100%;
     left: 1.5em;
+    background-color: white;
+    padding: 0 20px;
+    line-height: 1.5em; 
+}
+.sub-menù{
+    display: none;
 }
 /* BANNER */
 .banner{
