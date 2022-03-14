@@ -45,7 +45,7 @@ li{
 }
 .col-head-left{
     display: inline-block;
-    width: 65%;
+    width: 72%;
     vertical-align: middle;
 }
 .col-head-right{
@@ -71,6 +71,10 @@ li{
     color: white;
 }
 
+header .cont-head a:nth-of-type(-n+3):hover{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
 /* BANNER */
 .banner{
     background-color: #adcde7;
@@ -98,6 +102,7 @@ li{
 }
 .fa-arrow-down{
     font-size: 2em;
+    color: black;
 }
 .logo-jumbo{
     width: 70%;
@@ -224,25 +229,32 @@ li span{
 
 /* DESIGNIT */
 .designit-cont{
-    
+    /* height: 500px;  */
 }
 .col-designit{
     width: calc(100%/3);
     /* test */
-    height: 300px;
+    height: 100%;
     /* test */
 }
 .col-designit div{
     width: 50%;
-    height: 50%;
-    text-align: center;
-    line-height: 150px;
-
+    height: 100%;
+    /* text-align: center; */
+    /* line-height: 150px; */
 }
 .col-designit div img{
    /* test */
    width: 50%;
    filter: invert(100%);
+}
+.mid-designit{
+    margin: 0 auto;
+    overflow-y: auto;
+}
+#logo-designit{
+    width: 50%;
+    filter: none;
 }
 /* colori pannelli designit */
 .green-bg{
@@ -300,11 +312,15 @@ li span{
     margin-bottom: 1em;
 }
 .cont-top-foot li{
+    font-weight: bold;
     border-bottom: 1px solid lightgrey;
     padding: 1em 0;
 }
 .cont-top-foot li:first-child{
     border-top: 1px solid lightgrey;
+}
+.cont-top-foot li i{
+   float: right;
 }
 /* bottom footer */
 .row-black{
@@ -326,6 +342,6 @@ li span{
     width: 10%;
     border-top: 2px solid rgb(255, 255, 255);
 }
-.row-foot span{
+.language{
     color: grey;
 }
